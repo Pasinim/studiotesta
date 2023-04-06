@@ -1,13 +1,13 @@
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import  from "./img/icon.png";
+import logo_w from "../img/studiotesta.png"
 
 const navigation = [
-  { name: "Dashboard", href: "#", current: true },
+  { name: "Chi siamo", href: "#", current: true },
   { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
+  { name: "Progetti", href: "#", current: false },
+  { name: "Contatti", href: "#", current: false },
 ];
 
 function classNames(...classes) {
@@ -16,7 +16,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-800 ">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -39,11 +39,14 @@ export default function Navbar() {
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
                   />
-                  <img
+                  {/*<Text>*/}
+                  {/*  studiotesta*/}
+                  {/*</Text>*/}
+                  {/* <img
                     className="hidden h-8 w-auto lg:block"
                     src={logo_w}
                     alt="studiotesta"
-                  />
+                  /> */}
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
