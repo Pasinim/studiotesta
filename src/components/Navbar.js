@@ -3,6 +3,8 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo_w from "../img/studiotesta.png"
 
+
+/** TODO: navigate to .... */
 const navigation = [
   { name: "Chi siamo", href: "#", current: true },
   { name: "Team", href: "#", current: false },
