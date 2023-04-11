@@ -38,7 +38,7 @@ export default function Example() {
                                     'flex-auto lg:col-span-7 lg:row-start-1 xl:col-span-8'
                                 )}
                             >
-                                <div className="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
+                                <div className="aspect-h-2 aspect-w-6 overflow-auto rounded-lg bg-gray-100">
                                     <img src={feature.imageSrc} alt={feature.imageAlt} className="object-cover object-center" />
                                 </div>
                             </div>

@@ -8,12 +8,12 @@ import React from "react";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+        <div className="overflow-visible">
       <Navbar />
-        <div className="overflow-y-scroll">
+        </div>
         <Homepage></Homepage>
           <Infopage></Infopage>
-        </div>
     </div>
   );
 }
